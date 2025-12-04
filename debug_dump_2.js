@@ -7,12 +7,11 @@ const filePath = path.join(__dirname, latest);
 
 console.log(`Reading ${filePath}`);
 const content = fs.readFileSync(filePath, 'utf8');
-const index = content.indexOf('10:00');
+const regex = /<[^>]*>10:00<\/[^>]*>/g;
+const match = content.match(regex);
 
-if (index !== -1) {
-    const start = Math.max(0, index - 200);
-    const end = Math.min(content.length, index + 200);
-    console.log(content.substring(start, end));
+if (match) {
+  console.log('Found matches:', match);
 } else {
-    console.log('10:00 not found');
+  console.log('10:00 element not found via regex');
 }

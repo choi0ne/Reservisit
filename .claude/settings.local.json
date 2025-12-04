@@ -3,16 +3,8 @@
     "allow": [
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "Bash(powershell -Command \"(Get-ChildItem revisit_process_error_*.html | Sort-Object LastWriteTime -Descending | Select-Object -First 1).Name\")",
-      "Bash(powershell -Command:*)",
-      "Bash(git add:*)",
-      "Bash(git rm:*)",
-      "Bash(del nul)",
-      "Bash(rm:*)",
-      "Bash(git commit:*)",
-      "Bash(git config:*)",
-      "Bash(git push:*)",
-      "Bash(git pull:*)"
+      "Bash(cat:*)",
+      "Bash(node -c:*)"
     ],
     "deny": [],
     "ask": []
