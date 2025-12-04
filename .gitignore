@@ -1,0 +1,13 @@
+node_modules/
+chrome-profile/
+logs/
+backup/
+*.log
+*.tmp
+*.html
+processed_reservations.json
+automation_log.txt
+automation_log_old.txt
+error_log.txt
+debug_output.txt
+syntax_error*.txt

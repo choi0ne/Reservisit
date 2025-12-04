@@ -1,0 +1,33 @@
+{
+  "name": "revisit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auto-revisit-upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dayjs": "^1.11.19",
+    "mssql": "^12.1.0",
+    "nodemailer": "^7.0.10",
+    "playwright": "^1.57.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer": "^24.31.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "xlsx": "^0.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choi0ne/reservisit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/choi0ne/reservisit/issues"
+  },
+  "homepage": "https://github.com/choi0ne/reservisit#readme"
+}
